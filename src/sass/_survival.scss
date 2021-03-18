@@ -1,0 +1,60 @@
+.survival {
+  background: url('../assets/images/main.png') center;
+  background-size: cover;
+  height: 780px;
+}
+
+.survival .wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 1200px;
+  height: 540px;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 4.8rem;
+  color: $orange-main;
+  line-height: 7.2rem;
+  letter-spacing: 2px;
+}
+
+.survival__description {
+  width: 275px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: $font-light;
+  line-height: 2.7rem;
+}
+
+.donate {
+  width: 160px;
+  height: 60px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: $orange-main;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2.3rem;
+  color: $font-light;
+  &:hover {
+    cursor: pointer;
+    background-color: $orange-light;
+  }
+  &:active {
+    background-color: $orange-dark;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .survival .wrapper {
+    margin: 0 120px;
+  }
+}

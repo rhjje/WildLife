@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$orange-main: #CD6326;
+$orange-light: #E39128;
+$orange-dark: #8F5613;
+$font-light: #F7F7F7;
+$font-grey: #666666;
+$font-dark: #333333;
+$bg: #CCCCCC;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+@import './header';
+@import './survival';
+@import './latest-articles';
+@import './get-notified';
+@import './footer';

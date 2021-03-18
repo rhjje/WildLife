@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Deer",
+    "description": "Naturalist investigation",
+    "image": "./assets/images/slide-1.jpg"
+  },
+  {
+    "name": "Squirrel",
+    "description": "Naturalist investigation",
+    "image": "./assets/images/slide-2.jpg"
+  },
+  {
+    "name": "Bird",
+    "description": "Birds Fight club",
+    "image": "./assets/images/slide-3.jpg"
+  }
+]
