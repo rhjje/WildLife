@@ -1,3 +1,3 @@
 # WildLife
 
-Deploy - https://rhjje.github.io/WildLife/dist/  
+Demo: https://rhjje.github.io/WildLife/dist/  
